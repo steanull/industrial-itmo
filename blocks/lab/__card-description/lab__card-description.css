@@ -1,0 +1,18 @@
+.lab__card-description {
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0.1px;
+  color: #001337;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__card-description {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

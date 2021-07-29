@@ -1,0 +1,20 @@
+.lab__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__container {
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__container {
+    max-width: 288px;
+    flex-direction: column;
+  }
+}

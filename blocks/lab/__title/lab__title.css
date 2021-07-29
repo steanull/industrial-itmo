@@ -1,0 +1,28 @@
+.lab__title {
+  margin: 0 0 60px;
+  padding: 0;
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__title {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__title {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.page__lab {
+  margin: 0;
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .page__lab {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__lab  {
+    padding: 40px 0;
+  }
+}

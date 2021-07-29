@@ -1,0 +1,28 @@
+.lab__inner {
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lab__inner:nth-of-type(2n) {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__inner {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__inner {
+    max-width: 280px;
+  }
+
+  .lab__inner:nth-of-type(2n) {
+    flex-direction: row;
+    order: -1;
+  }
+}
