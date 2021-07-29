@@ -1,0 +1,4 @@
+.projects__item_active {
+  border-bottom: 5px solid #009FAC;
+  font-weight: 600;
+}

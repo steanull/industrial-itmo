@@ -1,0 +1,5 @@
+.projects-pagination__link_active {
+  border-bottom: 2px solid #009FAC;
+  padding: 2px;
+  font-weight: 600;
+}

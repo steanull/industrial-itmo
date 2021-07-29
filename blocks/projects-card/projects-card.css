@@ -1,0 +1,27 @@
+.projects-card {
+  width: 100%;
+  max-width: 254px;
+  min-height: 228px;
+  margin: 0;
+  border-radius: 10px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects-card {
+    max-width: 210px;
+    min-height: 199px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects-card {
+    max-width: 140px;
+    max-height: 130px;
+    min-height: 130px;
+
+  }
+}
