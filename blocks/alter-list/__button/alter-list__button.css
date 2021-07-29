@@ -1,0 +1,13 @@
+.alter-list__button {
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 0;
+  max-width: 24px;
+  width: 100%;
+  min-height: 24px;
+  box-sizing: border-box;
+  background-size: 24px;
+  background-image: url("../../../images/chevron-down.svg");
+  background-color: transparent;
+  cursor: pointer;
+}

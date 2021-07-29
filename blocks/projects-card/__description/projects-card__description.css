@@ -1,0 +1,24 @@
+.projects-card__description {
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  max-width: 194px;
+  width: 100%;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects-card__description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects-card__description {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

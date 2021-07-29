@@ -1,0 +1,23 @@
+.projects-card__inner {
+  width: 100%;
+  max-width: 254px;
+  min-height: 228px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 159, 172, .7);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects-card__inner {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects-card__inner {
+    padding: 10px;
+    max-height: 130px;
+    min-height: 130px;
+  }
+}
