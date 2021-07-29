@@ -1,0 +1,13 @@
+.news__share-button {
+  background-color: transparent;
+  padding: 0;
+  border-width: 0;
+
+  border-image:unset;
+  border-color: transparent;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  background-image: url("../../../images/clarity-share-solid.svg");
+  margin-left: auto;
+}

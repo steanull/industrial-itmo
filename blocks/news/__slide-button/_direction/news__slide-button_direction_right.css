@@ -1,0 +1,6 @@
+.news__slide-button_direction_right {
+    background-image: url("../../../../images/button-round.svg");
+    transform: rotate(180deg);
+    right: -65px;
+    top: 47%;
+}

@@ -1,0 +1,11 @@
+.publication__dot {
+  background-image: url("../../../images/unselected.svg");
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 8px;
+  padding-inline-end: 12px;
+}
+
+.publication__dot:last-child {
+  padding-inline-end: 0;
+}
