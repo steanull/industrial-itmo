@@ -1,0 +1,22 @@
+.lab__image {
+  max-width: 264px;
+  width: 100%;
+  min-height: 276px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__image {
+    max-width: 330px;
+    min-height: 240px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__image {
+    max-width: 288px;
+    min-height: 180px;
+    order: -1;
+  }
+}

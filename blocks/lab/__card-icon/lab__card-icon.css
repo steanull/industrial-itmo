@@ -1,0 +1,28 @@
+.lab__card-icon {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0 2px 12px rgba(1, 54, 157, 0.15);
+  max-width: 70px;
+  width: 100%;
+  min-height: 70px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-size: 34px;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__card-icon {
+    max-width: 41px;
+    min-height: 41px;
+    background-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__card-icon  {
+    max-width: 40px;
+    min-height: 40px;
+    background-size: 20px;
+  }
+}
