@@ -1,0 +1,31 @@
+.news__subtitle {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #009FAC;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline: 20px;
+  padding-block-end: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .news__subtitle {
+    padding-block-end: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .news__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+    padding-inline: 16px;
+    padding-block-end: 10px;
+  }
+}

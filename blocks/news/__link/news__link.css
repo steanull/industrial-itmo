@@ -1,0 +1,5 @@
+.news__link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
