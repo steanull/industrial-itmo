@@ -1,0 +1,27 @@
+.header-focus__container {
+  margin: 92px 0 92px;
+  padding: 0;
+  width: 100%;
+  max-width: 445px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-focus__container {
+    min-height: 470px;
+    max-width: 445px;
+    margin: 58px 0 58px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-focus__container {
+    max-width: 288px;
+    min-height: 324px;
+    margin: 58px 0 58px;
+  }
+}

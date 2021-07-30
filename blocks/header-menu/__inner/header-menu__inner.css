@@ -1,0 +1,23 @@
+.header-menu__inner {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-menu__inner {
+    max-width: 690px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu__inner {
+    max-width: 288px;
+    justify-content: center;
+  }
+}

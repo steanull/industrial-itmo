@@ -1,9 +1,20 @@
 .header-menu {
-  max-width: 1110px;
   width: 100%;
-  margin: 0 auto;
+  min-height: 80px;
+  background-color: #000D26;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-menu {
+    min-height: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu {
+    min-height: 44px;
+  }
 }
