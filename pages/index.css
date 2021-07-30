@@ -1,6 +1,30 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 
+/* HEADER */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__menu/header__menu.css");
+
+/* HEADER-MENU */
+@import url("../blocks/header-menu/header-menu.css");
+@import url("../blocks/header-menu/__image/header-menu__image.css");
+@import url("../blocks/header-menu/__item/header-menu__item.css");
+@import url("../blocks/header-menu/__list/header-menu__list.css");
+@import url("../blocks/header-menu/__menu/header-menu__menu.css");
+@import url("../blocks/header-menu/__link/header-menu__link.css");
+@import url("../blocks/header-menu/__link/_active/header-menu__link_active.css");
+@import url("../blocks/header-menu/__inner/header-menu__inner.css");
+@import url("../blocks/header-menu/__button/header-menu__button.css");
+
+/* HEADER-FOCUS */
+@import url("../blocks/header-focus/header-focus.css");
+@import url("../blocks/header-focus/__button/header-focus__button.css");
+@import url("../blocks/header-focus/__container/header-focus__container.css");
+@import url("../blocks/header-focus/__description/header-focus__description.css");
+@import url("../blocks/header-focus/__inner/header-focus__inner.css");
+@import url("../blocks/header-focus/__title/header-focus__title.css");
+@import url("../blocks/header-focus/__accent/header-focus__accent.css");
+
 /* LAB */
 @import url("../blocks/page/__lab/page__lab.css");
 @import url("../blocks/page/__projects/page__projects.css");

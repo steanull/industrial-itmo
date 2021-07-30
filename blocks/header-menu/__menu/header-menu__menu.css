@@ -1,0 +1,13 @@
+.header-menu__menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 825px;
+  display: block;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-menu__menu {
+    display: none;
+  }
+}

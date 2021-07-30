@@ -11,7 +11,48 @@
 
 <body class="page">
   <header class="header">
-    <!--HEADER feat_IT-1_header-->
+    <section class="header__menu header-menu">
+      <div class="header-menu__inner">
+        <button class="header-menu__button"></button>
+        <img src="images/logo.svg" alt="ITMO" class="header-menu__image">
+        <nav class="header-menu__menu">
+          <ul class="header-menu__list">
+            <li class="header-menu__item">
+              <a class="header-menu__link header-menu__link_active" href="#">О нас</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#">Лаборатория</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#projects">Проекты</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#">Образование</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#">Публикации</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#">Команда</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="#">Связаться</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="header__focus header-focus">
+      <div class="header-focus__inner">
+        <div class="header-focus__container">
+          <h1 class="header-focus__title"><span class="header-focus__accent">Когнитивные технологии</span>, машинное обучение</h1>
+          <p class="header-focus__description">
+            Системы прикладного искусственного интеллекта
+          </p>
+          <a href="#projects" class="header-focus__link"><button class="header-focus__button">НАШИ ПРОЕКТЫ</button></a>
+        </div>
+      </div>
+    </section>
   </header>
   <main class="main">
     <section class="about">
@@ -91,7 +132,7 @@
         </li>
       </ul>
     </section>
-    <section class="projects page__projects">
+    <section class="projects page__projects" id="projects">
       <h2 class="projects__title">НАШИ ПРОЕКТЫ</h2>
       <div class="projects__alter-list alter-list">
         <p class="alter-list__name">ВСЕ ПРОЕКТЫ</p>

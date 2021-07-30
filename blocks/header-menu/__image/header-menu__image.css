@@ -1,0 +1,19 @@
+.header-menu__image {
+  object-fit: contain;
+  max-width: 150px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-menu__image {
+    max-width: 95px;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu__image {
+    max-width: 71px;
+    margin-right: auto;
+  }
+}

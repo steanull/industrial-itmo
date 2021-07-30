@@ -1,0 +1,22 @@
+.header-focus__inner {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-focus__inner {
+    max-width: 690px;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-focus__inner {
+    max-width: 288px;
+    justify-content: center;
+  }
+}

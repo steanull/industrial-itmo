@@ -1,0 +1,14 @@
+.header-menu__link {
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  color: #ffffff;
+  width: 100%;
+  max-width: 100px;
+  padding: 10px 0;
+  display: block;
+}
