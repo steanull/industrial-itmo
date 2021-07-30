@@ -1,0 +1,17 @@
+.footer__menu-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFF;
+  font-family: "Open Sans", serif;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__menu-link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
