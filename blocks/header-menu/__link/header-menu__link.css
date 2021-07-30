@@ -12,3 +12,10 @@
   padding: 10px 0;
   display: block;
 }
+
+@media screen and (max-width: 1439px) {
+  .header-menu__link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
