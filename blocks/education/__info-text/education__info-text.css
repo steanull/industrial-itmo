@@ -1,0 +1,27 @@
+.education__info-text {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  max-width: 920px;
+  margin: 0 0 60px;
+  font-family: "Open Sans", serif;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 1110px) {
+  .education__info-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .education__info-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+

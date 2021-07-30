@@ -131,3 +131,24 @@
 @import url("../blocks/alter-list/alter-list.css");
 @import url("../blocks/alter-list/__name/alter-list__name.css");
 @import url("../blocks/alter-list/__button/alter-list__button.css");
+
+/* CARD */
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/__text-info/card__text-info.css");
+@import url("../blocks/card/__title/card__title.css");
+@import url("../blocks/card/__list/card__list.css");
+@import url("../blocks/card/__item/card__item.css");
+@import url("../blocks/card/__photo/card__photo.css");
+@import url("../blocks/card/__more-link/card__more-link.css");
+@import url("../blocks/card/__more-link-arrow/card__more-link-arrow.css");
+
+/* BUTTON-GROUP */
+@import url("../blocks/button-group/button-group.css");
+@import url("../blocks/button-group/__button/button-group__button.css");
+@import url("../blocks/button-group/__button/__active/button-group__button__active.css");
+
+/* EDUCATION */
+@import url("../blocks/education/education.css");
+@import url("../blocks/education/__title/education__title.css");
+@import url("../blocks/education/__info-text/education__info-text.css");
+@import url("../blocks/education/__button-group/education__button-group.css");
