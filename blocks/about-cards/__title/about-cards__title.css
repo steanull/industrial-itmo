@@ -1,0 +1,34 @@
+.about-cards__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  box-orient: vertical;
+  padding: 0 0 20px;
+  margin: 8px 0 20px;
+  color: #001337;
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  border-bottom: 1px solid #009FAC;
+}
+
+@media screen and (max-width: 1439px) {
+  .about-cards__title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-cards__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,17 @@
+.about__container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .about__container {
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__container {
+    max-width: 288px;
+  }
+}

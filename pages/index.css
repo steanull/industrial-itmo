@@ -1,6 +1,12 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 
+/* PAGE */
+@import url("../blocks/page/__lab/page__lab.css");
+@import url("../blocks/page/__projects/page__projects.css");
+@import url("../blocks/page/__header/page__header.css");
+@import url("../blocks/page/__about/page__about.css");
+
 /* HEADER */
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__menu/header__menu.css");
@@ -25,9 +31,22 @@
 @import url("../blocks/header-focus/__title/header-focus__title.css");
 @import url("../blocks/header-focus/__accent/header-focus__accent.css");
 
+/* ABOUT */
+@import url("../blocks/about/about.css");
+@import url("../blocks/about/__title/about__title.css");
+@import url("../blocks/about/__description/about__description.css");
+@import url("../blocks/about/__card/about__card.css");
+@import url("../blocks/about/__container/about__container.css");
+
+/* ABOUT-CARDS */
+@import url("../blocks/about-cards/about-cards.css");
+@import url("../blocks/about-cards/__date/about-cards__date.css");
+@import url("../blocks/about-cards/__description/about-cards__description.css");
+@import url("../blocks/about-cards/__icon/about-cards__icon.css");
+@import url("../blocks/about-cards/__item/about-cards__item.css");
+@import url("../blocks/about-cards/__title/about-cards__title.css");
+
 /* LAB */
-@import url("../blocks/page/__lab/page__lab.css");
-@import url("../blocks/page/__projects/page__projects.css");
 @import url("../blocks/lab/lab.css");
 @import url("../blocks/lab/__title/lab__title.css");
 @import url("../blocks/lab/__container/lab__container.css");

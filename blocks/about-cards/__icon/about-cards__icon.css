@@ -1,0 +1,11 @@
+.about-cards__icon {
+  background-size: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  background-image: url(../../../images/pin.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: -11px;
+  right: -11px;
+}

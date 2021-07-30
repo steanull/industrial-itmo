@@ -1,0 +1,36 @@
+.about-cards__item {
+  width: 100%;
+  max-width: 348px;
+  min-height: 340px;
+  background-color: #E0F0FF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 20px 30px;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .about-cards__item {
+    max-width: 330px;
+    min-height: 330px;
+  }
+
+  .about-cards__item:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-cards__item {
+    max-width: 288px;
+    min-height: 250px;
+  }
+
+  .about-cards__item:nth-of-type(2) {
+    display: none;
+  }
+
+  .about-cards__item:last-of-type {
+    display: none;
+  }
+}
