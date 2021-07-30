@@ -1,0 +1,22 @@
+.callback {
+  min-height: 577px;
+  background-color: #009fac;
+}
+
+@media screen and (max-width: 1439px) {
+  .callback {
+    padding: 0 39px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .callback {
+    min-height: 456px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .callback {
+    min-height: 643px;
+  }
+}
