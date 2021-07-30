@@ -152,3 +152,19 @@
 @import url("../blocks/education/__title/education__title.css");
 @import url("../blocks/education/__info-text/education__info-text.css");
 @import url("../blocks/education/__button-group/education__button-group.css");
+
+/* CALLBACK */
+@import url("../blocks/callback/callback.css");
+@import url("../blocks/callback/__title/callback__title.css");
+@import url("../blocks/callback/__question/callback__question.css");
+@import url("../blocks/callback/__about/callback__about.css");
+@import url("../blocks/callback/__form/callback__form.css");
+@import url("../blocks/callback/__message/callback__message.css");
+@import url("../blocks/callback/__submit/callback__submit.css");
+@import url("../blocks/callback/__input/callback__input.css");
+
+/* INPUT */
+@import url("../blocks/input/input.css");
+
+/* TEXTAREA */
+@import url("../blocks/textarea/textarea.css");
