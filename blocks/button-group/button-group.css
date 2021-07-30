@@ -1,0 +1,11 @@
+.button-group {
+  border: 1px solid #e0f0ff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  .button-group {
+    border-radius: 5px;
+  }
+}
