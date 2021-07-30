@@ -5,3 +5,9 @@
   text-align: center;
   width: 100px;
 }
+
+@media screen and (max-width: 1439px) {
+  .header-menu__item {
+    width: 85px;
+  }
+}

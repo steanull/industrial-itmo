@@ -10,6 +10,12 @@
 
 @media screen and (max-width: 1439px) {
   .header-menu__inner {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header-menu__inner {
     max-width: 690px;
     justify-content: center;
   }
