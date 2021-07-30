@@ -155,6 +155,7 @@
 
 /* CALLBACK */
 @import url("../blocks/callback/callback.css");
+@import url("../blocks/callback/__container/callback__container.css");
 @import url("../blocks/callback/__title/callback__title.css");
 @import url("../blocks/callback/__question/callback__question.css");
 @import url("../blocks/callback/__about/callback__about.css");
@@ -168,3 +169,31 @@
 
 /* TEXTAREA */
 @import url("../blocks/textarea/textarea.css");
+
+/* FOOTER */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__container/footer__container.css");
+@import url("../blocks/footer/__content/footer__content.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__logo/footer__logo.css");
+@import url("../blocks/footer/__made-student/footer__made-student.css");
+@import url("../blocks/footer/__mail/footer__mail.css");
+@import url("../blocks/footer/__menu-item/footer__menu-item.css");
+@import url("../blocks/footer/__menu-link/footer__menu-link.css");
+@import url("../blocks/footer/__menu-links/footer__menu-links.css");
+@import url("../blocks/footer/__phone/footer__phone.css");
+@import url("../blocks/footer/__sosials/footer__sosials.css");
+@import url("../blocks/footer/__address/footer__address.css");
+@import url("../blocks/footer/__discription/footer__discription.css");
+@import url("../blocks/footer/__menu-title/footer__menu-title.css");
+@import url("../blocks/footer/__contact/footer__contact.css");
+@import url("../blocks/footer/__city/footer__city.css");
+@import url("../blocks/footer/__made/footer__made.css");
+@import url("../blocks/footer/__copyright-university/footer__copyright-university.css");
+@import url("../blocks/footer/__copyright-university/_size/footer__copyright-university_size_l.css");
+@import url("../blocks/footer/__copyright-university/_size/footer__copyright-university_size_m.css");
+@import url("../blocks/footer/__sosials/_size/footer__sosials_size_l.css");
+@import url("../blocks/footer/__sosials/_size/footer__sosials_size_m.css");
+@import url("../blocks/footer/__menu/footer__menu.css");
+@import url("../blocks/footer/__discription/_visibility/footer__discription_visibility.css");
+@import url("../blocks/footer/__header/footer__header.css");

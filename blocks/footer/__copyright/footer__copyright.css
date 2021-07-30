@@ -1,0 +1,21 @@
+.footer__copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  font-family: "Open Sans", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__copyright:first-child {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__copyright {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.footer__phone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  font-family: "Open Sans", serif;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__phone {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

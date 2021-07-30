@@ -1,0 +1,13 @@
+@media screen and (min-width: 900px) {
+  .footer__copyright-university_size_m {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .footer__copyright-university_size_m {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

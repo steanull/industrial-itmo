@@ -1,0 +1,22 @@
+.footer__address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  font-family: "Open Sans", serif;
+  margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__address {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__address {
+    margin: 10px 0 8px;
+  }
+}

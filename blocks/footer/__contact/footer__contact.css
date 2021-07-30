@@ -1,0 +1,9 @@
+.footer__contact{
+  max-width: 206px;
+}
+
+@media screen and (max-width: 420px) {
+  .footer__contact {
+    max-width: 231px;
+  }
+}
