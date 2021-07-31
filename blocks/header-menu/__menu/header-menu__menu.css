@@ -14,6 +14,12 @@
 
 @media screen and (max-width: 1279px) {
   .header-menu__menu {
-    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 999;
+    min-height: 492px;
+    background-color: #000D26;
+    max-width: 1280px;
   }
 }

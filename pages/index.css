@@ -17,10 +17,15 @@
 @import url("../blocks/header-menu/__item/header-menu__item.css");
 @import url("../blocks/header-menu/__list/header-menu__list.css");
 @import url("../blocks/header-menu/__menu/header-menu__menu.css");
+@import url("../blocks/header-menu/__menu/_opened/header-menu__menu_opened.css");
 @import url("../blocks/header-menu/__link/header-menu__link.css");
-@import url("../blocks/header-menu/__link/_active/header-menu__link_active.css");
 @import url("../blocks/header-menu/__inner/header-menu__inner.css");
 @import url("../blocks/header-menu/__button/header-menu__button.css");
+@import url("../blocks/header-menu/__dropdown/header-menu__dropdown.css");
+@import url("../blocks/header-menu/__dropdown-item/header-menu__dropdown-item.css");
+@import url("../blocks/header-menu/__dropdown-link/header-menu__dropdown-link.css");
+@import url("../blocks/header-menu/__popup-image/header-menu__popup-image.css");
+@import url("../blocks/header-menu/__close-button/header-menu__close-button.css");
 
 /* HEADER-FOCUS */
 @import url("../blocks/header-focus/header-focus.css");
