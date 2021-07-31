@@ -1,0 +1,21 @@
+.header-menu__popup-image {
+  display: none;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .header-menu__popup-image {
+    display: block;
+    padding: 14px 40px;
+    max-width: 95px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu__popup-image {
+    padding: 10px 16px;
+    max-width: 71px;
+    width: 100%;
+  }
+}

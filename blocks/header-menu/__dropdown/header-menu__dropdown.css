@@ -1,0 +1,19 @@
+.header-menu__dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  z-index: 1;
+  padding: 15px 0 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s;
+}
+
+@media screen and (max-width: 1279px) {
+  .header-menu__dropdown {
+    display: none;
+  }
+}
