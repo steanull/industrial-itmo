@@ -3,6 +3,7 @@
   color: #000d26;
   border: 1px solid #e0f0ff;
   width: 280px;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1100px) {
