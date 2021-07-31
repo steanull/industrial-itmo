@@ -1,6 +1,7 @@
 const popup = document.querySelector('.popup');
 const cardLabBtn = document.querySelectorAll('.lab__card-button');
 const headerMenuBtn = document.querySelector('.header-menu__button');
+const headerMenuCloseBtn = document.querySelector('.header-menu__close-button');
 const headerMenu = document.querySelector('.header-menu__menu');
 
 //Функция добавления класса для открытия
@@ -14,10 +15,10 @@ function closePopup(element) {
 }
 
 //Открытие и закрытие Гамбургера
-  .addEventListener('click', function () {
+  headerMenuBtn.addEventListener('click', function () {
     headerMenu.classList.add('header-menu__menu_opened');
 })
-  headerMenuBtn.addEventListener('click', function () {
+  headerMenuCloseBtn.addEventListener('click', function () {
     headerMenu.classList.remove('header-menu__menu_opened');
   })
 
@@ -29,7 +30,6 @@ function closePopup(element) {
   document.querySelector('.popup-lab__close').addEventListener('click', function () {
     closePopup(popup);
   })
-
   popup.addEventListener('click', (event) => {
     if (event.target === event.currentTarget) {
       closePopup(popup);
