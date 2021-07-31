@@ -1,9 +1,9 @@
-.footer__discription {
+.footer__description {
   max-width: 263px;
 }
 
 @media screen and (max-width: 900px) {
-  .footer__discription {
+  .footer__description {
     max-width: 204px;
   }
 }
