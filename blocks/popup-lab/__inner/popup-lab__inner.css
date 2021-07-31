@@ -1,0 +1,6 @@
+.popup-lab__inner {
+}
+
+.popup-lab__inner:last-of-type {
+  margin-left: 20px;
+}

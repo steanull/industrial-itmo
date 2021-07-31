@@ -1,10 +1,40 @@
-  document.querySelector('.header-menu__button').addEventListener('click', function () {
-  document.querySelector('.header-menu__menu').classList.add('header-menu__menu_opened');
+const popup = document.querySelector('.popup');
+const cardLabBtn = document.querySelectorAll('.lab__card-button');
+const headerMenuBtn = document.querySelector('.header-menu__button');
+const headerMenu = document.querySelector('.header-menu__menu');
+
+//Функция добавления класса для открытия
+function openPopup(element) {
+  element.classList.add('popup_opened');
+}
+
+//Функция удаления класса для закрытия
+function closePopup(element) {
+  element.classList.remove('popup_opened');
+}
+
+//Открытие и закрытие Гамбургера
+  .addEventListener('click', function () {
+    headerMenu.classList.add('header-menu__menu_opened');
 })
-  document.querySelector('.header-menu__close-button').addEventListener('click', function () {
-    document.querySelector('.header-menu__menu').classList.remove('header-menu__menu_opened');
+  headerMenuBtn.addEventListener('click', function () {
+    headerMenu.classList.remove('header-menu__menu_opened');
   })
 
+// Открытие и закрытие Popup
+  cardLabBtn.forEach(button => button.addEventListener("click", function() {
+    openPopup(popup);
+  }));
+
+  document.querySelector('.popup-lab__close').addEventListener('click', function () {
+    closePopup(popup);
+  })
+
+  popup.addEventListener('click', (event) => {
+    if (event.target === event.currentTarget) {
+      closePopup(popup);
+    }
+  })
   /*
   Смена карточек в блоке educatin
 */
@@ -91,7 +121,7 @@ const inputMail= formCallBack.querySelector('.callback__mail');
 const buttonSendForm = formCallBack.querySelector('.callback__submit');
 
 buttonSendForm.addEventListener('click', function(event) {
-  event.preventDefault(); 
+  event.preventDefault();
   if(requestFields(inputFirstname.value, inputSurname.value, textareaMessage.value, inputPhone.value, inputMail.value)){
     const formObj = {
       'firstName' : inputFirstname.value,

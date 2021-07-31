@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0 80px;
   color: #001337;
+  transition: .3s;
 }
 
 @media screen and (max-width: 1439px) {

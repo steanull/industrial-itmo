@@ -1,0 +1,30 @@
+.popup-lab__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 718px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .popup-lab__container {
+    max-width: 690px;
+    min-height: 454px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-lab__container {
+    max-width: 300px;
+    min-height: 444px;
+    padding: 16px;
+    flex-direction: column;
+  }
+}

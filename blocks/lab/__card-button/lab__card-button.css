@@ -13,6 +13,13 @@
   line-height: 20px;
   text-align: center;
   margin: 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.lab__card-button:active {
+  background-color: #ffffff;
+  color: #009FAC;
 }
 
 @media screen and (max-width: 1439px) {

@@ -202,3 +202,20 @@
 @import url("../blocks/footer/__menu/footer__menu.css");
 @import url("../blocks/footer/__description/_visibility/footer__description_visibility.css");
 @import url("../blocks/footer/__header/footer__header.css");
+
+/* POPUP */
+@import url("../blocks/popup/popup.css");
+@import url("../blocks/popup/_opened/popup_opened.css");
+
+/* POPUP-LAB */
+@import url("../blocks/popup-lab/popup-lab.css");
+@import url("../blocks/popup-lab/__close/popup-lab__close.css");
+@import url("../blocks/popup-lab/__description/popup-lab__description.css");
+@import url("../blocks/popup-lab/__image/popup-lab__image.css");
+@import url("../blocks/popup-lab/__item/popup-lab__item.css");
+@import url("../blocks/popup-lab/__inner/popup-lab__inner.css");
+@import url("../blocks/popup-lab/__list/popup-lab__list.css");
+@import url("../blocks/popup-lab/__title/popup-lab__title.css");
+@import url("../blocks/popup-lab/__container/popup-lab__container.css");
+
+
