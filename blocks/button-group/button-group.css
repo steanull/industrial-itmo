@@ -2,6 +2,7 @@
   border: 1px solid #e0f0ff;
   box-sizing: border-box;
   border-radius: 10px;
+  font-size: 0;
 }
 
 @media screen and (max-width: 420px) {
