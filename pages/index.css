@@ -189,7 +189,7 @@
 @import url("../blocks/footer/__phone/footer__phone.css");
 @import url("../blocks/footer/__sosials/footer__sosials.css");
 @import url("../blocks/footer/__address/footer__address.css");
-@import url("../blocks/footer/__discription/footer__discription.css");
+@import url("../blocks/footer/__description/footer__description.css");
 @import url("../blocks/footer/__menu-title/footer__menu-title.css");
 @import url("../blocks/footer/__contact/footer__contact.css");
 @import url("../blocks/footer/__city/footer__city.css");
@@ -200,5 +200,5 @@
 @import url("../blocks/footer/__sosials/_size/footer__sosials_size_l.css");
 @import url("../blocks/footer/__sosials/_size/footer__sosials_size_m.css");
 @import url("../blocks/footer/__menu/footer__menu.css");
-@import url("../blocks/footer/__discription/_visibility/footer__discription_visibility.css");
+@import url("../blocks/footer/__description/_visibility/footer__description_visibility.css");
 @import url("../blocks/footer/__header/footer__header.css");
