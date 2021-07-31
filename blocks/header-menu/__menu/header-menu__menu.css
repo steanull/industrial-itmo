@@ -21,5 +21,8 @@
     min-height: 492px;
     background-color: #000D26;
     max-width: 1280px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
   }
 }

@@ -1,3 +1,4 @@
 .header-menu__menu_opened {
-  top: 0;
+  visibility: visible;
+  opacity: 1;
 }
