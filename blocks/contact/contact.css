@@ -1,22 +1,22 @@
-.callback {
+.contact {
   min-height: 577px;
   background-color: #009fac;
 }
 
 @media screen and (max-width: 1439px) {
-  .callback {
+  .contact {
     padding: 0 39px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .callback {
+  .contact {
     min-height: 456px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .callback {
+  .contact {
     min-height: 643px;
   }
 }

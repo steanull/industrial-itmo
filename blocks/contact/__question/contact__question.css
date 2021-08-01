@@ -1,9 +1,9 @@
-.callback__question {
+.contact__question {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 919px;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .callback__question {
+  .contact__question {
     max-width: 690px;
     font-size: 14px;
     line-height: 20px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .callback__question {
+  .contact__question {
     max-width: 288px;
     font-size: 12px;
     line-height: 16px;

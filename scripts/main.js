@@ -109,16 +109,16 @@ function clearUl(element) {
 
 
 /*
-  Отправка формы в блоке callback
+  Отправка формы в блоке contact
 */
 
-const formCallBack = document.querySelector('.callback__about');
-const inputFirstname= formCallBack.querySelector('.callback__firstname');
-const inputSurname = formCallBack.querySelector('.callback__surname');
-const textareaMessage= formCallBack.querySelector('.callback__message');
-const inputPhone= formCallBack.querySelector('.callback__phone');
-const inputMail= formCallBack.querySelector('.callback__mail');
-const buttonSendForm = formCallBack.querySelector('.callback__submit');
+const formContact = document.querySelector('.contact__about');
+const inputFirstname= formContact.querySelector('.contact__firstname');
+const inputSurname = formContact.querySelector('.contact__surname');
+const textareaMessage= formContact.querySelector('.contact__message');
+const inputPhone= formContact.querySelector('.contact__phone');
+const inputMail= formContact.querySelector('.contact__mail');
+const buttonSendForm = formContact.querySelector('.contact__submit');
 
 buttonSendForm.addEventListener('click', function(event) {
   event.preventDefault();
