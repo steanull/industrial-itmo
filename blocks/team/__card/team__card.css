@@ -1,0 +1,36 @@
+.team__card {
+  max-width: 255px;
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+  border-radius: 10px;
+  padding: 20px 20px 30px;
+  box-sizing: border-box;
+}
+
+.team__card:hover {
+  transform: translateY(-4px);
+}
+
+/* .team__card:not(:last-child) {
+  padding-right: 30px;
+} */
+
+@media screen and (max-width: 768px) {
+  .team__card {
+    max-width: 210px;
+    padding: 20px;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .team__card {
+
+    max-width: 140px;
+    padding: 10px;
+  }
+
+  /* .team__card:not(:first-child) {
+    display: none;
+  } */
+}

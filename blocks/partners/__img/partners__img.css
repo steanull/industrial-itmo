@@ -1,0 +1,17 @@
+.partners__img {
+  height: 48px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .partners__img {
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .partners__img {
+    height: 30px;
+  }
+}

@@ -10,7 +10,6 @@
   margin-inline: 0;
 }
 
-
 @media screen and (max-width: 320px) {
   .news__link-text {
     font-size: 14px;

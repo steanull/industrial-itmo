@@ -9,6 +9,14 @@
   box-sizing: border-box;
 }
 
+.news__item:hover .news__readmore {
+  display: block;
+}
+
+.news__item:hover .news__pic {
+  max-height: 158px;
+}
+
 @media screen and (max-width: 807px) {
   .news__item {
     max-width: 330px;

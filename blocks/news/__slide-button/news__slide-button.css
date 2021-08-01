@@ -1,5 +1,6 @@
 .news__slide-button {
-  background-repeat: no-repeat;
+  background: #fff;
+  border-radius: 50%;
   width: 60px;
   height: 60px;
   cursor: pointer;

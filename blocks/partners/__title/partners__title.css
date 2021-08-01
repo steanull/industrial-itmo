@@ -1,4 +1,4 @@
-.projects__title {
+.partners__title {
   padding: 0 0 30px;
   font-family: "Open Sans", serif;
   font-style: normal;
@@ -14,18 +14,17 @@
   margin-inline: 0;
 }
 
-@media screen and (max-width: 1439px) {
-  .projects__title {
+@media screen and (max-width: 768px) {
+  .partners__title {
     font-size: 24px;
     line-height: 33px;
-    padding: 0 0 30px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .projects__title {
+@media screen and (max-width: 320px) {
+  .partners__title {
+    padding: 0 0 30px;
     font-size: 16px;
     line-height: 22px;
-    padding: 0 0 20px;
   }
 }

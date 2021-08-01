@@ -3,3 +3,7 @@
   text-decoration: none;
   align-items: center;
 }
+
+.news__link:hover .news__arrow {
+  transform: translateX(3px);
+}
