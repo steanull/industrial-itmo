@@ -186,16 +186,15 @@
 @import url("../blocks/education/__info-text/education__info-text.css");
 @import url("../blocks/education/__button-group/education__button-group.css");
 
-/* CALLBACK */
-@import url("../blocks/callback/callback.css");
-@import url("../blocks/callback/__container/callback__container.css");
-@import url("../blocks/callback/__title/callback__title.css");
-@import url("../blocks/callback/__question/callback__question.css");
-@import url("../blocks/callback/__about/callback__about.css");
-@import url("../blocks/callback/__form/callback__form.css");
-@import url("../blocks/callback/__message/callback__message.css");
-@import url("../blocks/callback/__submit/callback__submit.css");
-@import url("../blocks/callback/__input/callback__input.css");
+/* contact */
+@import url("../blocks/contact/contact.css");
+@import url("../blocks/contact/__container/contact__container.css");
+@import url("../blocks/contact/__title/contact__title.css");
+@import url("../blocks/contact/__question/contact__question.css");
+@import url("../blocks/contact/__about/contact__about.css");
+@import url("../blocks/contact/__message/contact__message.css");
+@import url("../blocks/contact/__submit/contact__submit.css");
+@import url("../blocks/contact/__input/contact__input.css");
 
 /* INPUT */
 @import url("../blocks/input/input.css");

@@ -1,4 +1,4 @@
-.callback__submit {
+.contact__submit {
   grid-column-start: 2;
   grid-column-end: 3;
   margin-top: 17px;
@@ -17,20 +17,20 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 10px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {
-  .callback__submit {
+  .contact__submit {
     height: 44px;
   }
 }
 
 @media screen and (max-width: 730px) {
-  .callback__submit {
+  .contact__submit {
     grid-column-start: auto;
     grid-column-end: auto;
     min-width: 100%;

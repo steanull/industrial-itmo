@@ -10,7 +10,7 @@
 </head>
 
 <body class="page">
-    <header class="header page__header">
+    <header class="header page__header" id="header">
         <section class="header__menu header-menu">
             <div class="header-menu__inner">
                 <button class="header-menu__button"></button>
@@ -357,7 +357,7 @@
                     class="button-group__button button-group__button__active button__magistr-students">МАГИСТРАТУРА</button>
             </div>
         </section>
-        <section class="publication">
+        <section class="publication" id="publications">
           <div class="publication__container container">
             <h3 class="publication__title">Публикации</h3>
 
@@ -527,7 +527,7 @@
           </div>
         </section>
 
-        <section class="team">
+        <section class="team" id="team">
             <div class="team__container">
               <h2 class="team__title">Наша команда</h2>
               <ul class="team__cards">
@@ -672,19 +672,19 @@
           </div>
         </section>
       
-        <section class="callback" id="contact-us">
-            <div class="callback__container">
-                <h2 class="callback__title">ВСЕГДА НА СВЯЗИ</h2>
-                <p class="callback__question">По всем интересующим вас вопросам вы всегда можете обратиться по указанным
+        <section class="contact" id="contact-us">
+            <div class="contact__container">
+                <h2 class="contact__title">ВСЕГДА НА СВЯЗИ</h2>
+                <p class="contact__question">По всем интересующим вас вопросам вы всегда можете обратиться по указанным
                     телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи.</p>
-                <form name="callbackForm">
-                    <fieldset class="callback__about">
-                        <input class="input callback__input callback__firstname" type="text" placeholder="Имя">
-                        <input class="input callback__input callback__surname" type="text" placeholder="Фамилия">
-                        <textarea class="textarea callback__message" placeholder="Сообщение"></textarea>
-                        <input class="input callback__input callback__phone" type="tel" placeholder="Телефон">
-                        <input class="input callback__input callback__mail" type="email" placeholder="E-mail">
-                        <button class="callback__submit" type="submit">ОТПРАВИТЬ</button>
+                <form name="contactForm">
+                    <fieldset class="contact__about">
+                        <input class="input contact__input contact__firstname" type="text" placeholder="Имя">
+                        <input class="input contact__input contact__surname" type="text" placeholder="Фамилия">
+                        <textarea class="textarea contact__message" placeholder="Сообщение"></textarea>
+                        <input class="input contact__input contact__phone" type="tel" placeholder="Телефон">
+                        <input class="input contact__input contact__mail" type="email" placeholder="E-mail">
+                        <button class="contact__submit" type="submit">ОТПРАВИТЬ</button>
                     </fieldset>
                 </form>
             </div>
@@ -709,21 +709,21 @@
                 <nav class="footer__menu">
                     <h2 class="footer__menu-title">О центре</h2>
                     <ul class="footer__menu-links">
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">О нас</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Главная</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Команда</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Лаборатория</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Контакты</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#about">О нас</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#header">Главная</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#team">Команда</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#lab">Лаборатория</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#contact-us">Контакты</a></li>
                     </ul>
                 </nav>
                 <nav class="footer__menu">
                     <h2 class="footer__menu-title">Развитие</h2>
                     <ul class="footer__menu-links">
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Образование</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Аспирантура</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Магистратура</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Публикации</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Проекты</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#education">Образование</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#education">Аспирантура</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#education">Магистратура</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#publications">Публикации</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-link" href="#projects">Проекты</a></li>
                     </ul>
                 </nav>
                 <div class="footer__contact">
