@@ -1,6 +1,9 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 
+/* MAIN */
+@import url("../blocks/main/main.css");
+
 /* HEADER */
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__menu/header__menu.css");
@@ -80,6 +83,29 @@
 @import url("../blocks/publication/__dots-container/publication__dots-container.css");
 @import url("../blocks/publication/__dot/publication__dot.css");
 @import url("../blocks/publication/__dot/_active/publication__dot_active.css");
+
+/*WORK*/
+@import url("../blocks/work/work.css");
+@import url("../blocks/work/__container/work__container.css");
+
+/*TEAM*/
+@import url("../blocks/team/team.css");
+@import url("../blocks/team/__container/team__container.css");
+@import url("../blocks/team/__title/team__title.css");
+@import url("../blocks/team/__cards/team__cards.css");
+@import url("../blocks/team/__card/team__card.css");
+@import url("../blocks/team/__card-img/team__card-img.css");
+@import url("../blocks/team/__card-title/team__card-title.css");
+@import url("../blocks/team/__card-subtitle/team__card-subtitle.css");
+
+/*PARTNERS*/
+@import url("../blocks/partners/partners.css");
+@import url("../blocks/partners/__container/partners__container.css");
+@import url("../blocks/partners/__title/partners__title.css");
+@import url("../blocks/partners/__text/partners__text.css");
+@import url("../blocks/partners/__cards/partners__cards.css");
+@import url("../blocks/partners/__card/partners__card.css");
+@import url("../blocks/partners/__img/partners__img.css");
 
 /*PROJECTS*/
 @import url("../blocks/projects/projects.css");

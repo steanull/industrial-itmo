@@ -1,6 +1,7 @@
 .news__slide-button_direction_right {
-    background-image: url("../../../../images/button-round.svg");
-    transform: rotate(180deg);
+    background-image: url("../../../../images/arrow-news.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     right: -65px;
     top: 47%;
 }
