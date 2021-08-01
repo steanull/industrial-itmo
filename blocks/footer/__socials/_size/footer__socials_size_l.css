@@ -1,17 +1,17 @@
 @media screen and (max-width: 900px) {
-  .footer__sosials_size_l {
+  .footer__socials_size_l {
     display: flex;
   }
 }
 
 @media screen and (max-width: 899px) {
-  .footer__sosials_size_l {
+  .footer__socials_size_l {
     display: none;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .footer__sosials_size_l {
+  .footer__socials_size_l {
     display: flex;
   }
 }
