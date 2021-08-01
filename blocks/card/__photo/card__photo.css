@@ -1,0 +1,39 @@
+.card__photo {
+  max-width: 445px;
+  max-height: 364px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1110px) {
+  .card__photo {
+    max-width: 280px;
+    min-height: 282px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .card__photo {
+    align-self: center;
+    margin-bottom: 12px;
+    min-height: 160px;
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card__photo {
+    align-self: center;
+    margin-bottom: 12px;
+    min-height: 160px;
+    max-width: 256px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card__photo {
+    width: 256px;
+    height: 160px;
+  }
+}
+

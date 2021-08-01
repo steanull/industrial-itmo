@@ -1,0 +1,11 @@
+.footer__made {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  .footer__made {
+    justify-content: center;
+  }
+}

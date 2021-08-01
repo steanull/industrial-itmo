@@ -6,8 +6,33 @@
   width: 100px;
 }
 
+.header-menu__item:hover .header-menu__link {
+  border-bottom: 2px solid #009FAC;
+}
+
+.header-menu__item:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media screen and (max-width: 1439px) {
   .header-menu__item {
     width: 85px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header-menu__item {
+    text-align: left;
+    width: 100%;
+    border: 0;
+  }
+
+  .header-menu__item:hover {
+    background-color: #001337;
+  }
+
+  .header-menu__item:hover .header-menu__link {
+    border: 0;
   }
 }

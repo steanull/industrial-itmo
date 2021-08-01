@@ -15,6 +15,17 @@
   text-align: center;
   margin: 0;
   cursor: pointer;
+  transition: .4s;
+}
+
+.header-focus__button:hover {
+  border: 1px solid #009FAC;
+  color: #009FAC;
+}
+
+.header-focus__button:active {
+  border: 1px solid #009FAC;
+  color: #009FAC;
 }
 
 @media screen and (max-width: 1439px) {

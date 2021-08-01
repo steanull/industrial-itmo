@@ -1,0 +1,24 @@
+.callback__message {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  font-family: "Open Sans", serif;
+  padding: 20px;
+  resize: none;
+}
+
+@media screen and (max-width: 900px) {
+  .callback__message {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .callback__message {
+    grid-row-start: 5;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    min-width: 100%;
+    min-height: 140px;
+  }
+}

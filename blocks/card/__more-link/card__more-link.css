@@ -1,0 +1,25 @@
+.card__more-link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000d26;
+  font-family: "Open Sans", serif;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1110px) {
+  .card__more-link {
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card__more-link {
+    font-size: 12px;
+    line-height: 9px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+  }
+}

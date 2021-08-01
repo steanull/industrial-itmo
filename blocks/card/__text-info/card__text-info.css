@@ -1,0 +1,13 @@
+.card__text-info {
+  min-width: 635px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1240px) {
+  .card__text-info {
+    min-width: 0;
+    max-width: 635px;
+  }
+}

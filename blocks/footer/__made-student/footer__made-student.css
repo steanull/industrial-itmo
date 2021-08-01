@@ -1,0 +1,24 @@
+.footer__made-student {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-family: "Open Sans", serif;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__made-student {
+    font-size: 12px;
+    line-height: 20px;
+  }
+} 
+
+@media screen and (max-width: 420px) {
+  .footer__made-student {
+    line-height: 16px;
+    margin-top: 36px;
+    margin-bottom: 0;
+  }
+} 
