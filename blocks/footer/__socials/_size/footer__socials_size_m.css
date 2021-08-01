@@ -1,11 +1,11 @@
 @media screen and (min-width: 900px) {
-  .footer__sosials_size_m {
+  .footer__socials_size_m {
     display: none;
   }
 }
 
 @media screen and (max-width: 899px) {
-  .footer__sosials_size_m {
+  .footer__socials_size_m {
     display: flex;
     margin-right: 61px;
     margin-top: 11px;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 550px) {
-  .footer__sosials_size_m {
+  .footer__socials_size_m {
     display: none;
   }
 }

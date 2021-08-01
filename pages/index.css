@@ -214,7 +214,7 @@
 @import url("../blocks/footer/__menu-link/footer__menu-link.css");
 @import url("../blocks/footer/__menu-links/footer__menu-links.css");
 @import url("../blocks/footer/__phone/footer__phone.css");
-@import url("../blocks/footer/__sosials/footer__sosials.css");
+@import url("../blocks/footer/__socials/footer__socials.css");
 @import url("../blocks/footer/__address/footer__address.css");
 @import url("../blocks/footer/__description/footer__description.css");
 @import url("../blocks/footer/__menu-title/footer__menu-title.css");
@@ -224,8 +224,8 @@
 @import url("../blocks/footer/__copyright-university/footer__copyright-university.css");
 @import url("../blocks/footer/__copyright-university/_size/footer__copyright-university_size_l.css");
 @import url("../blocks/footer/__copyright-university/_size/footer__copyright-university_size_m.css");
-@import url("../blocks/footer/__sosials/_size/footer__sosials_size_l.css");
-@import url("../blocks/footer/__sosials/_size/footer__sosials_size_m.css");
+@import url("../blocks/footer/__socials/_size/footer__socials_size_l.css");
+@import url("../blocks/footer/__socials/_size/footer__socials_size_m.css");
 @import url("../blocks/footer/__menu/footer__menu.css");
 @import url("../blocks/footer/__description/_visibility/footer__description_visibility.css");
 @import url("../blocks/footer/__header/footer__header.css");
