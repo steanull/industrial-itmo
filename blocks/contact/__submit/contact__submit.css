@@ -23,6 +23,18 @@
   box-sizing: border-box;
 }
 
+.contact__submit:hover {
+  background-color: #fff;
+  transition: 0.4s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact__submit:active {
+  color: rgb(97, 97, 97);
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: 0.1s;
+}
+
 @media screen and (max-width: 900px) {
   .contact__submit {
     height: 44px;

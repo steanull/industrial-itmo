@@ -130,6 +130,7 @@ buttonSendForm.addEventListener('click', function(event) {
       'phone' : inputPhone.value,
       "email" : inputMail.value,
     }
+    clearForm(inputFirstname, inputSurname, textareaMessage, inputPhone, inputMail)
     console.log(formObj)
     return formObj;
   }
@@ -145,4 +146,10 @@ function requestFields(...arrayFields) {
     }
   });
   return result;
+}
+
+function clearForm(...elements) {
+  elements.forEach(element => {
+    element.value = '';
+  });
 }
