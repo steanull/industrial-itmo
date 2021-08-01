@@ -1,20 +1,21 @@
 .popup-lab__container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: grid;
   padding: 20px;
   position: relative;
   max-width: 1110px;
   width: 100%;
   min-height: 718px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   box-sizing: border-box;
+  grid-template-columns: 400px 650px;
+  grid-template-rows: max-content;
+  gap: 0 20px;
 }
 
 @media screen and (max-width: 1439px) {
   .popup-lab__container {
+    grid-template-columns: 199px 414px;
     max-width: 690px;
     min-height: 454px;
   }
@@ -22,9 +23,10 @@
 
 @media screen and (max-width: 767px) {
   .popup-lab__container {
+    grid-template-columns: 268px;
     max-width: 300px;
     min-height: 444px;
     padding: 16px;
-    flex-direction: column;
+    gap: 10px;
   }
 }

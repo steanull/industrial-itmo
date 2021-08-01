@@ -1,6 +1,5 @@
 .popup-lab__inner {
-}
-
-.popup-lab__inner:last-of-type {
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
