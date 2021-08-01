@@ -4,6 +4,8 @@
   width: 100%;
   min-height: 678px;
   object-fit: cover;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 @media screen and (max-width: 1439px) {
@@ -15,12 +17,12 @@
 
 @media screen and (max-width: 767px) {
   .popup-lab__image {
-    width: 268px;
-    height: 160px;
-    order: 1;
+    max-width: 268px;
+    min-height: 0;
+    max-height: 160px;
     object-fit: cover;
     object-position: center;
-    flex: 1;
     overflow: hidden;
+    grid-row-start: 2;
   }
 }
