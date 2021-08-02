@@ -7,14 +7,6 @@
   box-sizing: border-box;
 }
 
-.team__card:hover {
-  transform: translateY(-4px);
-}
-
-/* .team__card:not(:last-child) {
-  padding-right: 30px;
-} */
-
 @media screen and (max-width: 768px) {
   .team__card {
     max-width: 210px;
@@ -30,7 +22,4 @@
     padding: 10px;
   }
 
-  /* .team__card:not(:first-child) {
-    display: none;
-  } */
 }

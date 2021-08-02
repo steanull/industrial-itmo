@@ -1,23 +1,21 @@
 .news__share-container {
   position: absolute;
   top: -70px;
-  left: -80px;
+  left: -141px;
   background: #fff;
   border-radius: 8px;
   padding:17px;
   gap: 10px;
   display: none;
-  /* display: flex; */
-
 }
 
 .news__share-container::after {
   position: absolute;
   background-image: url("../../../images/triangle-down.svg");
   background-repeat: no-repeat;
-  top: 50%;
+
   top: 100%;
-  left: 46%;
+  left: 79%;
   content: '';
   width: 15px;
   height: 8px;
