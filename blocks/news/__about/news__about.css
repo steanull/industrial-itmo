@@ -1,0 +1,11 @@
+.news__about {
+  padding-block-start: 20px;
+  padding-inline: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .news__about {
+    padding-block-start: 16px;
+    padding-inline: 16px;
+  }
+}

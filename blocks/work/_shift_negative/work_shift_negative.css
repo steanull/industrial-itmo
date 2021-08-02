@@ -1,0 +1,9 @@
+.work_shift_negative {
+  margin-top: -200px;
+}
+
+@media screen and (max-width: 768px){
+  .work_shift_negative {
+    margin-top: -140px;
+  }
+}

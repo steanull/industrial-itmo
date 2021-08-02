@@ -23,6 +23,6 @@
   .team__card-title {
     font-size: 12px;
     line-height: 16px;
-
+    padding-inline: 20px;
   }
 }

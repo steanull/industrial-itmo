@@ -2,6 +2,6 @@
   max-width: 1110px;
   min-width: 320px;
   margin: 0 auto;
-  position: absolute;
-  z-index: 1;
+  /* position: absolute;
+  z-index: 1; */
 }

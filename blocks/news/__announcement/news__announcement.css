@@ -4,6 +4,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
+  max-height: 152px;
+  overflow: hidden;
 
   color: #000D26;
 
@@ -11,7 +13,7 @@
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  padding-inline: 20px;
+
   padding-block-end: 30px;
 }
 
@@ -26,7 +28,7 @@
     font-size: 12px;
     line-height: 16px;
     padding-block-end: 16px;
-    padding-inline: 16px;
+
   }
 
 }

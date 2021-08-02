@@ -1,14 +1,6 @@
 .news__pic {
   object-fit: cover;
   max-height: 223px;
-  padding-block-start: 20px;
-  padding-inline: 20px;
   border-radius: 10px;
 }
 
-@media screen and (max-width: 320px) {
-  .news__pic {
-    padding-block-start: 16px;
-    padding-inline: 16px;
-  }
-}

@@ -1,6 +1,3 @@
 .team {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  background: #E0F0FF;
 }
