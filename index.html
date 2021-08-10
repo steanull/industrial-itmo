@@ -203,14 +203,14 @@
         <button class="alter-list__button"></button>
       </div>
       <ul class="projects__list">
-        <li class="projects__item projects__item_active projects__item__type_all">ВСЕ ПРОЕКТЫ</li>
-        <li class="projects__item projects__item__type_goz">ГОС. ПРОЕКТЫ</li>
-        <li class="projects__item projects__item__type_spec">СПЕЦПРОГРАММЫ</li>
-        <li class="projects__item projects__item__type_dev">В РАЗРАБОТКЕ</li>
+        <li class="projects__item projects__item_active projects__item_type_all">ВСЕ ПРОЕКТЫ</li>
+        <li class="projects__item projects__item_type_goz">ГОС. ПРОЕКТЫ</li>
+        <li class="projects__item projects__item_type_spec">СПЕЦПРОГРАММЫ</li>
+        <li class="projects__item projects__item_type_dev">В РАЗРАБОТКЕ</li>
       </ul>
       <div class="projects__slider">
         <ul class="projects__cards">
-          
+
         </ul>
         <div class="projects__pagination projects-pagination">
           <ul class="projects-pagination__list">
@@ -237,7 +237,7 @@
         (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» в области
         электронного и дистанционного образования. Реализуются образовательные программы различных форматов.
       </p>
-      <div class="card card__graduate-school">
+      <div class="card">
         <div class="card__text-info">
           <h3 class="card__title">Образовательные программы магистратуры в области МО и КТ</h3>
           <ul class="card__list">
@@ -255,9 +255,9 @@
         <img class="card__photo" alt="Студенты" src="./images/magistr-students.jpg">
       </div>
       <div class="button-group education__button-group">
-        <button type="button" class="button-group__button button__graduate-school">АСПИРАНТУРА</button>
+        <button type="button" class="button-group__button button-group__graduate-school">АСПИРАНТУРА</button>
         <button type="button"
-          class="button-group__button button-group__button__active button__magistr-students">МАГИСТРАТУРА</button>
+          class="button-group__button button-group__button_active button-group__magistr-students">МАГИСТРАТУРА</button>
       </div>
     </section>
     <section class="publication" id="publications">
@@ -269,11 +269,11 @@
     </section>
 
     <section class="team">
-        <div class="team__container">
-          <h2 class="team__title">Наша команда</h2>
-          <ul class="team__cards owl-carousel owl-theme">
-          </ul>
-        </div>
+      <div class="team__container">
+        <h2 class="team__title">Наша команда</h2>
+        <ul class="team__cards owl-carousel owl-theme">
+        </ul>
+      </div>
     </section>
 
     <section class="work work_shift_negative">
@@ -386,8 +386,8 @@
         <div class="footer__contact">
           <p class="footer__city">г.Санкт-Петербург</p>
           <p class="footer__address">199034, Санкт-Петербург, Биржевая линия, д. 4, лит. М, ауд. 302С</p>
-          <p class="footer__phone">+7 (812) 337-64-90</p>
-          <p class="footer__phone">+7 (812) 337-64-94</p>
+          <a class="footer__phone" href="tel:+78123376490">+7 (812) 337-64-90</a>
+          <a class="footer__phone" href="tel:+78123376494">+7 (812) 337-64-94</a>
           <p class="footer__mail">anna.lutsenko@itmo.ru</p>
           <ul class="footer__socials footer__socials_size_l">
             <li class="footer__link-item"><a class="footer__social-link" href="#"><img class="footer__social-icon"
@@ -466,11 +466,7 @@
 
   <template id="person">
     <li class="team__card">
-      <img
-        class="team__card-img"
-        src=""
-        alt=""
-      />
+      <img class="team__card-img" src="" alt="" />
       <h3 class="team__card-title"></h3>
       <p class="team__card-subtitle"></p>
     </li>
@@ -504,7 +500,7 @@
       </div>
     </div>
   </template>
-    
+
   <template id="project-card">
     <li class="projects__cards-item projects-card">
       <div class="projects-card__inner">
@@ -515,7 +511,7 @@
       </div>
     </li>
   </template>
-    
+
   <script src="./vendor/jquery/jquery.min.js"></script>
   <script src="./vendor/owl-carousel/owl.carousel.js"></script>
   <script src="./scripts/owl.options.main.js"></script>

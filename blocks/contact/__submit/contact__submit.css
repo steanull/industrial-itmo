@@ -49,3 +49,11 @@
     margin-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .contact__submit {
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

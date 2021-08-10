@@ -1,4 +1,4 @@
-.button-group__button__active {
+.button-group__button_active {
   background: #e0f0ff;
   color: #000d26;
   border: 1px solid #e0f0ff;
@@ -7,19 +7,19 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .button-group__button__active {
+  .button-group__button_active {
     width: 229px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .button-group__button__active {
+  .button-group__button_active {
     width: 160px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .button-group__button__active {
+  .button-group__button_active {
     width: 146px;
   }
 }

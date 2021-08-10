@@ -45,7 +45,16 @@ popup.addEventListener("click", (event) => {
 
 const cardGraduateSchool = {
   title: "Образовательные программы аспирантуры в области МО и КТ",
-  liList: ["аспирантуры1", "аспирантуры2", "аспирантуры3"],
+  liList: [
+    "Прикладные технологии искусственного интеллекта;",
+    "Машинное обучение и искусственный интеллект;",
+    "Биометрические информационные системы;",
+    "Речевые информационные системы;",
+    "Когнитивные вычисления и квантовый интеллект;",
+    "Большие данные и экстренные вычисления;",
+    "Семантические системы и инженерия знаний;",
+    "Технологии разработки компьютерных игр",
+  ],
   photolinkImg: "./images/graduate-school.jpg",
 };
 
@@ -69,13 +78,13 @@ const title = card.querySelector(".card__title");
 const list = card.querySelector(".card__list");
 const photo = card.querySelector(".card__photo");
 const buttonGroup = document.querySelector(".button-group");
-const buttonGraduateSchool = document.querySelector(".button__graduate-school");
+const buttonGraduateSchool = document.querySelector(".button-group__graduate-school");
 const buttonMagistrStudents = document.querySelector(
-  ".button__magistr-students"
+  ".button-group__magistr-students"
 );
 
 buttonGroup.addEventListener("click", function (e) {
-  setActiveElement(e, "button-group__button", "button-group__button__active");
+  setActiveElement(e, "button-group__button", "button-group__button_active");
 });
 
 buttonGraduateSchool.addEventListener("click", function () {
@@ -168,10 +177,10 @@ function clearForm(...elements) {
 */
 
 const cardContainer = document.querySelector(".projects__cards");
-const btnGoz = document.querySelector(".projects__item__type_goz");
-const btnSpec = document.querySelector(".projects__item__type_spec");
-const btnDev = document.querySelector(".projects__item__type_dev");
-const btnAll = document.querySelector(".projects__item__type_all");
+const btnGoz = document.querySelector(".projects__item_type_goz");
+const btnSpec = document.querySelector(".projects__item_type_spec");
+const btnDev = document.querySelector(".projects__item_type_dev");
+const btnAll = document.querySelector(".projects__item_type_all");
 
 const initialCards = [
   {
@@ -306,7 +315,7 @@ function setActiveElement(e, elemntGroup, nameActivClass) {
 /* team*/
 
 function appendCard(container, cardElement) {
-  container.append(cardElement)
+  container.append(cardElement);
 }
 
 const teamCardItem = [
@@ -347,95 +356,109 @@ const teamCardItem = [
   },
 ];
 
-const teamWrapper = document.querySelector('.team__cards')
+const teamWrapper = document.querySelector(".team__cards");
 
 function addTeamCard(img, person, work) {
-  const cardTemplate = document.querySelector('#person').content
-  const cardElement = cardTemplate.querySelector('.team__card').cloneNode(true)
-    cardElement.querySelector('.team__card-img').setAttribute('src', img)
-    cardElement.querySelector('.team__card-img').setAttribute('alt', person)
-    cardElement.querySelector('.team__card-title').textContent = person
-    cardElement.querySelector('.team__card-subtitle').textContent = work
+  const cardTemplate = document.querySelector("#person").content;
+  const cardElement = cardTemplate.querySelector(".team__card").cloneNode(true);
+  cardElement.querySelector(".team__card-img").setAttribute("src", img);
+  cardElement.querySelector(".team__card-img").setAttribute("alt", person);
+  cardElement.querySelector(".team__card-title").textContent = person;
+  cardElement.querySelector(".team__card-subtitle").textContent = work;
 
-    return cardElement
+  return cardElement;
 }
 
 /*publication*/
 
-const newsContainer = document.querySelector('.news__container')
+const newsContainer = document.querySelector(".news__container");
 const newsCardItem = [
   {
     img: "./images/img-news/news-1.jpg",
-    title: "Peregreen–modular database for efficient storage of historical tim…",
-    subtitle: "Alexander Visheratin, Alexey Struckov, Semen Yufa, Alexey Muratov, Denis Nasonov, Nikolay B…",
+    title:
+      "Peregreen–modular database for efficient storage of historical tim…",
+    subtitle:
+      "Alexander Visheratin, Alexey Struckov, Semen Yufa, Alexey Muratov, Denis Nasonov, Nikolay B…",
     text: "The rapid development of scientific and industrial areas, which rely on time series data processing, raises the demand for storage that would be able to process tens and hundreds of terabytes of data efficiently. And by efficiency, one should understand not only the speed of data processing operations execution but als…",
-    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate",
   },
   {
     img: "./images/img-news/news-2.jpg",
     title: "Intelligent sightseeing in immensely manifold cities: Case …",
-    subtitle: "Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov, Lev Manovich",
+    subtitle:
+      "Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov, Lev Manovich",
     text: "In this work, we show how social media data can be used for the improvement of touristic experience. We present an algorithm for automated touristic paths construction. Score function for location depends on three components: location's social media popularity and rating, distances of place from others in r…",
-    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate",
   },
   {
     img: "./images/img-news/news-3.jpg",
     title: "User Profiles Matching for Different Social Networks Based …",
     subtitle: "Timur Sokhin, Nikolay Butakov, Denis Nasonov",
     text: "It is common practice nowadays to use multiple social networks for different social roles. Although this, these networks assume differences in content type, communications and style of speech. If we intend to understand human behaviour as a key-feature for recommender systems, banking risk assessm…",
-    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate",
   },
   {
     img: "./images/img-news/news-4.jpg",
     title: "Orienteering Problem with Functional Profits for multi-sourc…",
     subtitle: "Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov",
     text: "Orienteering problem (OP) is a routing problem, where the aim is to generate a path through set of nodes, which would maximize total score and would not exceed the budget. In this paper, we present an extension of classic OP—Orienteering Problem with Functional Profits (OPFP), where the score of …",
-    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate",
   },
   {
     img: "./images/img-news/news-5.jpg",
     title: "Intellectual Execution Scheme of Iterative Computational Models …",
     subtitle: "Mikhail Melnik, Denis A Nasonov, Alexey Liniov",
     text: "In the modern world, with the growth of the volume of processed data arrays, the logic of solving problems also becomes more complex. This leads more and more often to the need to use high-performance computational clusters, such as supercomputers. Created m…",
-    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate",
   },
   {
     img: "./images/img-news/news-6.jpg",
     title: "Urban events prediction via convolutional neural networks a…",
     subtitle: "Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov",
     text: "In today’s world, it is crucial to be proactive and be prepared for events which are not happening yet. Thus, there is no surprise that in the field of social media analysis the research agenda has moved from the development of event detection methods to a brand new area - event prediction models...",
-    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+    link: "https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate",
   },
 ];
 
 function addNews(img, title, subtitle, text, link) {
-  const cardTemplate = document.querySelector('#news').content
-  const cardElement = cardTemplate.querySelector('.news__item').cloneNode(true)
-    cardElement.querySelector('.news__pic').setAttribute('src', img)
-    cardElement.querySelector('.news__pic').setAttribute('alt', title)
-    cardElement.querySelector('.news__title').textContent = title
-    cardElement.querySelector('.news__subtitle').textContent = subtitle
-    cardElement.querySelector('.news__announcement').textContent = text
-    cardElement.querySelector('.news__link').setAttribute('href', link)
+  const cardTemplate = document.querySelector("#news").content;
+  const cardElement = cardTemplate.querySelector(".news__item").cloneNode(true);
+  cardElement.querySelector(".news__pic").setAttribute("src", img);
+  cardElement.querySelector(".news__pic").setAttribute("alt", title);
+  cardElement.querySelector(".news__title").textContent = title;
+  cardElement.querySelector(".news__subtitle").textContent = subtitle;
+  cardElement.querySelector(".news__announcement").textContent = text;
+  cardElement.querySelector(".news__link").setAttribute("href", link);
 
-    const shareButton = cardElement.querySelector('.news__share-button')
-    const shareContainer = cardElement.querySelector('.news__share-container')
-    shareButton.addEventListener('click', () => {
-      shareContainer.classList.toggle('news__share-container_opened')
-  })
+  const shareButton = cardElement.querySelector(".news__share-button");
+  const shareContainer = cardElement.querySelector(".news__share-container");
+  shareButton.addEventListener("click", () => {
+    shareContainer.classList.toggle("news__share-container_opened");
+  });
 
-    return cardElement
+  return cardElement;
 }
 
 function createCards() {
+  teamCardItem.forEach((element) => {
+    appendCard(
+      teamWrapper,
+      addTeamCard(element.img, element.person, element.work)
+    );
+  });
 
-  teamCardItem.forEach(element => {
-    appendCard(teamWrapper, addTeamCard(element.img, element.person, element.work))
-    })
+  newsCardItem.forEach((element) => {
+    appendCard(
+      newsContainer,
+      addNews(
+        element.img,
+        element.title,
+        element.subtitle,
+        element.text,
+        element.link
+      )
+    );
+  });
+}
 
-  newsCardItem.forEach(element => {
-    appendCard(newsContainer, addNews(element.img, element.title, element.subtitle, element.text, element.link))
-    })
-  }
-
-document.addEventListener('DOMContentLoaded', createCards() )
+document.addEventListener("DOMContentLoaded", createCards());
