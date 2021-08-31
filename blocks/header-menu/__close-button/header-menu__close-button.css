@@ -1,0 +1,45 @@
+.header-menu__close-button {
+  display: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .header-menu__close-button {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 14px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 0;
+    max-width: 32px;
+    width: 100%;
+    min-height: 32px;
+    box-sizing: border-box;
+    background-size: 32px;
+    background-image: url(../../../images/close-button.svg);
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu__close-button {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 0;
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+    box-sizing: border-box;
+    background-size: 24px;
+    background-image: url(../../../images/close-button.svg);
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: auto;
+  }
+}

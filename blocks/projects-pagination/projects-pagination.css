@@ -1,0 +1,16 @@
+.projects-pagination {
+  width: 100%;
+  max-width: 344px;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects-pagination {
+    max-width: 442px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects-pagination {
+    max-width: 288px;
+  }
+}

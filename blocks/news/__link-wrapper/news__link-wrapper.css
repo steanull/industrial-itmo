@@ -1,0 +1,14 @@
+.news__link-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .news__link-wrapper {
+    padding: 13px 16px;
+  }
+
+}

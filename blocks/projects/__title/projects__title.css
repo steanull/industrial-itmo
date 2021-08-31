@@ -1,0 +1,31 @@
+.projects__title {
+  padding: 0 0 30px;
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects__title {
+    font-size: 24px;
+    line-height: 33px;
+    padding: 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__title {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 0 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.news__title {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #000D26;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+
+  padding-block-start:20px;
+  padding-block-end:4px;
+}
+
+@media screen and (max-width: 320px){
+  .news__title {
+    font-size: 14px;
+    line-height: 19px;
+    padding-block-start:12px;
+  }
+}

@@ -1,0 +1,25 @@
+.footer__menu-item {
+  padding-bottom: 8px;
+}
+
+.footer__menu-item:last-child {
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__menu-item {
+    padding-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__menu-item {
+    padding-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer__menu-item {
+    padding-bottom: 1px;
+  }
+}

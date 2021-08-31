@@ -1,0 +1,36 @@
+.popup-lab__description {
+  max-width: 650px;
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  margin: 0 0 1px;
+}
+
+@media screen and (max-width: 1439px) {
+  .popup-lab__description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .popup-lab__description:first-of-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-lab__description {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .popup-lab__description:first-of-type {
+    display: none;
+  }
+
+  .popup-lab__description:nth-of-type(2) {
+    display: none;
+  }
+}

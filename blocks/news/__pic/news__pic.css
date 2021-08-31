@@ -1,0 +1,6 @@
+.news__pic {
+  object-fit: cover;
+  max-height: 223px;
+  border-radius: 10px;
+}
+

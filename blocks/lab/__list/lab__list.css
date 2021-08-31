@@ -1,0 +1,25 @@
+.lab__list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 30px;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, 255px);
+  max-width: 1110px;
+  margin: 60px auto 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__list {
+    max-width: 690px;
+    grid-template-columns: repeat(auto-fill, 150px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__list {
+    max-width: 288px;
+    grid-template-columns: repeat(auto-fill, 140px);
+    gap: 8px;
+  }
+}

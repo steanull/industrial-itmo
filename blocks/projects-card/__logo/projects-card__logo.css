@@ -1,0 +1,16 @@
+.projects-card__logo {
+  max-height: 48px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects-card__logo {
+    max-height: 43px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects-card__logo {
+    max-height: 26px;
+  }
+}

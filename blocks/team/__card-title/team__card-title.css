@@ -1,0 +1,28 @@
+.team__card-title {
+  padding: 0 0 4px;
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #000d26;
+
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .team__card-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .team__card-title {
+    font-size: 12px;
+    line-height: 16px;
+    padding-inline: 20px;
+  }
+}

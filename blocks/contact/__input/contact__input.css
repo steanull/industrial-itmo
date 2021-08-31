@@ -1,0 +1,11 @@
+.contact__input {
+  padding-left: 20px;
+  padding-right: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact__input {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

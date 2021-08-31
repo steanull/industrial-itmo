@@ -1,0 +1,28 @@
+.popup-lab__image {
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  min-height: 678px;
+  object-fit: cover;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+@media screen and (max-width: 1439px) {
+  .popup-lab__image {
+    max-width: 199px;
+    min-height: 414px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup-lab__image {
+    max-width: 268px;
+    min-height: 0;
+    max-height: 160px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    grid-row-start: 2;
+  }
+}

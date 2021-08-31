@@ -1,0 +1,27 @@
+.partners__text {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding-block-end: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  max-width: 920px;
+
+  margin-block: 0;
+}
+
+@media screen and (max-width: 1020px) {
+  .partners__text {
+    padding-inline: 39px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .partners__text {
+    padding-inline: 16px;
+  }
+
+}

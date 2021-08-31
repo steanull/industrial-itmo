@@ -1,0 +1,29 @@
+.contact__question {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #ffffff;
+  max-width: 919px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family: "Open Sans", serif;
+}
+
+@media screen and (max-width: 900px) {
+  .contact__question {
+    max-width: 690px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 37px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact__question {
+    max-width: 288px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 23px;
+  }
+}

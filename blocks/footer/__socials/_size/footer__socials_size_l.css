@@ -1,0 +1,18 @@
+@media screen and (max-width: 900px) {
+  .footer__socials_size_l {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .footer__socials_size_l {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__socials_size_l {
+    display: flex;
+  }
+}
+

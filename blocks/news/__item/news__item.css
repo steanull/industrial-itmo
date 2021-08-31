@@ -1,0 +1,31 @@
+.news__item {
+  background: #fff;
+  max-width: 348px;
+
+  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.news__item:hover .news__readmore {
+  display: block;
+}
+
+.news__item:hover .news__pic {
+  max-height: 158px;
+}
+
+@media screen and (max-width: 807px) {
+  .news__item {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .news__item {
+    max-width: 288px;
+  }
+}

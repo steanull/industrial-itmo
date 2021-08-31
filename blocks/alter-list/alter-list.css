@@ -1,0 +1,13 @@
+.alter-list {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__alter-list {
+    box-sizing: border-box;
+    border-bottom: 2px solid #009FAC;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}

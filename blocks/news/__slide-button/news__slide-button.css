@@ -1,0 +1,14 @@
+.news__slide-button {
+  background: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  position: absolute;
+}
+
+@media screen and (max-width: 1230px) {
+  .news__slide-button {
+    display: none;
+  }
+}

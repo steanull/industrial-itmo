@@ -1,0 +1,17 @@
+.partners {
+  padding: 385px 0 0;
+}
+
+@media screen and (max-width: 768px){
+  .partners {
+    padding: 280px 0 0;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  .partners {
+    padding: 197px 0 0;
+  }
+
+}

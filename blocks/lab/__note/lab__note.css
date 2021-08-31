@@ -1,0 +1,45 @@
+.lab__note {
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  letter-spacing: 0.1px;
+  color: #000D26;
+  position: relative;
+}
+
+.lab__note::before {
+  content: "";
+  position: absolute;
+  float: left;
+  margin-left: -36px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../images/moleculer.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__note {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lab__note::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__note {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .lab__note::before {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.projects__item-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects__item-link:hover{
+  opacity: 0.4;
+  transition: 0.3s;
+}

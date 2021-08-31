@@ -1,0 +1,18 @@
+.team__card-img {
+  max-width: 215px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .team__card-img {
+    max-width: 170px;
+    padding-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .team__card-img {
+    max-width: 120px;
+    padding-bottom: 10px;
+  }
+}

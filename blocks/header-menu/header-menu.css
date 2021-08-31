@@ -1,0 +1,20 @@
+.header-menu {
+  width: 100%;
+  min-height: 80px;
+  background-color: #000D26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-menu {
+    min-height: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu {
+    min-height: 44px;
+  }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+  .footer__copyright-university_size_l {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .footer__copyright-university_size_l {
+    display: none;
+  }
+}

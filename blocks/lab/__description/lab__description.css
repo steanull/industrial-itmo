@@ -1,0 +1,25 @@
+.lab__description {
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  letter-spacing: 0.1px;
+  color: #000D26;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__description {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 20px 0;
+  }
+}

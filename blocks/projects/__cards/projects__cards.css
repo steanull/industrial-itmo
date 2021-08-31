@@ -1,0 +1,26 @@
+.projects__cards {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 254px);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-auto-rows: 1fr;
+  justify-content: center;
+  gap: 29px 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects__cards {
+    max-width: 690px;
+    grid-template-columns: repeat(auto-fill, 210px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__cards {
+    max-width: 288px;
+    grid-template-columns: repeat(auto-fill, 140px);
+    gap: 8px;
+  }
+}

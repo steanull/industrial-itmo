@@ -1,0 +1,29 @@
+.about__description {
+  margin: 0 auto 45px;
+  padding: 0;
+  max-width: 907px;
+  color: #ffffff;
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 1439px) {
+  .about__description {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__description {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 32px;
+    max-width: 288px;
+  }
+}

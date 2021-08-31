@@ -1,0 +1,28 @@
+.contact__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  margin: 0 0 37px 0;
+  padding-top: 80px;
+  color: #ffffff;
+  font-family: "Open Sans", serif;
+}
+
+@media screen and (max-width: 900px) {
+  .contact__title {
+    padding-top: 60px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact__title {
+    margin-bottom: 23px;
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,20 @@
+.publication__dots-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block-start: 21px;
+  padding-block-end: 391px;
+}
+
+@media screen and (max-width: 768px) {
+  .publication__dots-container {
+    padding-block-end: 304px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .publication__dots-container {
+    padding-block-end: 227px;
+  }
+}

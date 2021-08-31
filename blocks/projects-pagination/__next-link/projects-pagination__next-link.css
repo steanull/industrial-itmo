@@ -1,0 +1,12 @@
+.projects-pagination__next-link {
+  text-decoration: none;
+  background-size: 24px;
+  min-width: 24px;
+  width: 100%;
+  min-height: 24px;
+  background-image: url("../../../images/arrow-down-white.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  transform: scaleX(-1);
+}
