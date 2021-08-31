@@ -181,7 +181,7 @@
 /* BUTTON-GROUP */
 @import url("../blocks/button-group/button-group.css");
 @import url("../blocks/button-group/__button/button-group__button.css");
-@import url("../blocks/button-group/__button/__active/button-group__button__active.css");
+@import url("../blocks/button-group/__button/_active/button-group__button_active.css");
 
 /* EDUCATION */
 @import url("../blocks/education/education.css");

@@ -19,5 +19,14 @@
 @media screen and (max-width: 900px) {
   .textarea {
     max-width: 210px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .textarea {
+    font-size: 12px;
+    line-height: 16px;
   }
 }

@@ -18,5 +18,6 @@
 @media screen and (max-width: 320px) {
   .contact {
     min-height: 643px;
+    padding: 0 16px;
   }
 }
